@@ -28,7 +28,7 @@ reader.on("close", () => {
     if (inputList[i] === "A") {
       outputList[i] = "4";
       //console.log(outputList[i]);
-      console.log(outputList);
+      //console.log(outputList)
     } else if (inputList[i] === "E") {
       outputList[i] = "3";
     } else if (inputList[i] === "G") {
@@ -44,6 +44,7 @@ reader.on("close", () => {
     } else {
       outputList[i] = inputList[i];
     }
+    //console.log(outputList);
   }
   console.log(outputList);
 });
