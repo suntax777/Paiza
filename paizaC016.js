@@ -46,5 +46,5 @@ reader.on("close", () => {
     }
     //console.log(outputList);
   }
-  console.log(outputList);
+  console.log(outputList.join(""));
 });
