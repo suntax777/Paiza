@@ -15,4 +15,5 @@ reader.on("close", () => {
   const linesArray = lines[0].split("");
   const count = linesArray.length;
   console.log(count);
+  console.log("+".repeat(count + 2));
 });
