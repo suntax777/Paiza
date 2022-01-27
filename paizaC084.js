@@ -13,7 +13,10 @@ reader.on("line", (line) => {
 reader.on("close", () => {
   //console.log(lines[0]);
   const linesArray = lines[0].split("");
+  const concatenatedChar = linesArray.join("");
   const count = linesArray.length;
-  console.log(count);
+  //console.log(count);
+  console.log("+".repeat(count + 2));
+  console.log("+" + concatenatedChar + "+");
   console.log("+".repeat(count + 2));
 });
